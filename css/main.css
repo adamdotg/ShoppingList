@@ -1,0 +1,142 @@
+body {
+	background-image: url(../images/bg_image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:0;
+	padding:0;
+}
+.main {
+	margin:auto;
+	width: 600px;
+	font-family: sans-serif;
+}
+header, h1, .enter-wrapper, .list, .main, footer {
+	background-color: #fff;
+}
+header {
+	width:600px;
+	height: 100px;
+	margin:auto;
+}
+h1 {
+	margin:0px;
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: lighter;
+	text-align: center;
+	padding-top:37px;
+}
+.enter-wrapper {
+	width: 600px;
+	height: 60px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin:auto;
+}
+.field-enter {
+	width: 400px;
+	height: 38px;
+	margin:10px auto;
+	margin-bottom:20px;
+	padding:0px;
+}
+input {
+	position:relative;
+	top:-9px;
+	height:36px;
+	font-size:20px;
+	font-family: sans-serif;
+	width: 300px;
+	padding:0px 5px;
+	margin-left:8px;
+	border: 1px solid #8d8d8d;
+}
+input[placeholder]{
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: lighter;	
+}
+input:focus {
+	border: 1px solid #3399cc;
+	outline: none;
+}
+button:focus {
+	outline:none;
+}
+ul {
+	list-style-type: none;
+	width: 400px;
+	margin:auto;
+	padding-left:0;
+}
+li {
+	text-decoration: none;
+	width:400px;
+	padding:4px 0px;
+}
+li p {
+	display:inline-block;
+	border-bottom: 1px solid  #8d8d8d;
+	width:312px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: lighter;
+	margin:0px 6px 0px 6px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+}
+.list {
+	width:600px;
+	margin:auto;
+	padding:20px 0px;
+}
+.check, .delete, .enter {
+	width: 38px;
+	height: 38px;
+	border:1px solid #8d8d8d;
+	cursor: pointer;
+	background-color: #fff;
+}
+.enter {
+	background-image: url(../images/plus.png);
+	left: 363px;	
+}
+.enter:hover {
+	background-image: url(../images/plus-white.png);
+	left: 363px;	
+}
+.delete {
+	background-image: url(../images/minus.png);
+}
+.delete:hover {
+	background-image: url(../images/minus-white.png);
+}
+.check {
+	background-image: url(../images/check.png);
+}
+.check:hover {
+	background-image: url(../images/check-white.png);
+}
+.enter, .delete {
+	display:inline-block;
+	position:relative;
+}
+.checked {
+	text-decoration: line-through;
+	color: #CCC;
+}
+.hidden {
+	display: none;
+}
+footer {
+width: 600px;
+height: 100px;
+margin: auto;
+border-radius: 0px 0px 20px 20px;
+border-top: 1px solid black;
+}
+
+
+
+
